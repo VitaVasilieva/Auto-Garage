@@ -1,0 +1,77 @@
+.main {
+  display: flex;
+  margin-bottom: 50px;
+}
+@media (max-width: 1280px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.imageMain {
+  background-image: url(../public/remont.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 800px;
+}
+@media (max-width: 1280px) {
+  .imageMain {
+    height: 500px;
+    width: 600px;
+  }
+}
+.checkSection {
+  background-color: rgb(34, 145, 106);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.checkMarkSection {
+  margin-top: 120px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  background-color: rgb(255, 253, 253);
+  width: 500px;
+  height: 380px;
+  padding: 0 0 0 30px;
+  margin: 50px;
+}
+.checkMarkContainer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.checkMarkTitle {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 1280px) {
+  .checkMarkTitle {
+    font-size: 32px;
+  }
+}
+.checkMarkText {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Roboto";
+  text-align: left;
+}
+@media (max-width: 1280px) {
+  .checkMarkText {
+    font-size: 16px;
+  }
+}
+.checkMark {
+  border: 2px solid rgb(34, 145, 106);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(34, 145, 106);
+  color: aliceblue;
+}

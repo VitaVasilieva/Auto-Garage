@@ -1,0 +1,131 @@
+.container {
+  margin-bottom: 40px;
+}
+.titleContainer {
+  padding: 10px;
+}
+.title {
+  margin-top: 96px;
+  margin-bottom: 45px;
+  font-size: 120px;
+  color: black;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 74px;
+  }
+}
+.titleText {
+  font-size: 25px;
+  font-weight: 200;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+}
+@media (max-width: 1280px) {
+  .titleText {
+    font-size: 20px;
+  }
+}
+.textContainer {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+@media (max-width: 1280px) {
+  .textContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.titlesText {
+  font-size: 42px;
+  font-family: "Roboto";
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+@media (max-width: 1280px) {
+  .titlesText {
+    font-size: 34px;
+  }
+}
+.titleTexts {
+  padding-top: 3px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "Roboto";
+}
+@media (max-width: 1280px) {
+  .titleTexts {
+    font-size: 18px;
+  }
+}
+.checkMarkSection {
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: rgb(255, 253, 253);
+  border: 1px solid rgb(249, 242, 242);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 650px;
+  height: 480px;
+  padding: 30px 10px 30px 40px;
+}
+.checkMarkContainer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.checkMark {
+  border: 2px solid rgb(34, 145, 106);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(34, 145, 106);
+  color: aliceblue;
+}
+
+.comfort {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.img {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  padding: 15px;
+}
+.comfortText {
+  text-align: end;
+  width: 320px;
+  height: 300px;
+  padding: 20px;
+  border: 1px solid rgb(249, 242, 242);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: rgb(255, 253, 253);
+}
+.comfortTitle {
+  font-size: 34px;
+  font-family: "Roboto";
+  font-weight: 700;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+@media (max-width: 1280px) {
+  .comfortTitle {
+    font-size: 26px;
+    width: 100%;
+  }
+}
+.text {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: start;
+}

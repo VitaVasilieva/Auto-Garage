@@ -1,0 +1,71 @@
+.timeSection {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.timeSectionOut {
+  margin-top: 7px;
+}
+.sectionText {
+  font-size: 16px;
+  font-family: "Roboto";
+  margin: 0;
+  /* color: white; */
+}
+@media (max-width: 1280px) {
+  .sectionText {
+    font-size: 14px;
+  }
+}
+.sectionText1 {
+  color: white;
+}
+
+.mapSection {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.map {
+  color: rgb(83, 82, 82);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mapIcon {
+  margin-top: 10px;
+}
+.telSection {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.tel {
+  margin-top: 10px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid darkcyan;
+  border-radius: 50px;
+  background-color: darkcyan;
+  color: white;
+}
+.circleTime {
+  width: 50px;
+  height: 50px;
+  border: 1px solid darkcyan;
+  border-radius: 50px;
+  background-color: darkcyan;
+  color: white;
+}
+.buttonFormContainer {
+  padding-top: 50px;
+}
+@media (max-width: 1280px) {
+  .buttonFormContainer {
+    padding-top: 10px;
+  }
+}
