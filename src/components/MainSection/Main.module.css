@@ -9,7 +9,7 @@
   }
 }
 .imageMain {
-  background-image: url(../public/remont.jpg);
+  background-image: url(/remont.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 800px;
