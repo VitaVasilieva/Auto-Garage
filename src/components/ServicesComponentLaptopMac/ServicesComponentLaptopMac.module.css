@@ -53,6 +53,12 @@
   margin-bottom: 30px;
   padding: 35px;
 }
+@media (max-width: 768px) {
+  .buttonOpen {
+    margin-bottom: 0;
+  }
+}
+
 .buttonOpen:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.6);

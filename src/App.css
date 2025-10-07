@@ -64,6 +64,7 @@ p {
 }
 @media (max-width: 786px) {
   .title-header {
+    margin-top: 10px;
     font-size: 36px;
   }
 }
@@ -81,12 +82,18 @@ p {
 }
 /* Services */
 .titleServices {
-  padding-top: 130px;
+  padding: 130px 10px 0 10px;
   font-size: 66px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   margin: 0;
   margin-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .titleServices {
+    font-size: 46px;
+    margin-bottom: 40px;
+  }
 }
 .componentServices {
   display: flex;
