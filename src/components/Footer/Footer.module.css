@@ -134,6 +134,7 @@
   border-radius: 50px;
   background-color: rgb(249, 251, 251);
   color: darkcyan;
+  flex-shrink: 0;
 }
 @media (max-width: 480px) {
   .circle {
@@ -148,6 +149,7 @@
   border-radius: 50px;
   background-color: rgb(249, 251, 251);
   color: darkcyan;
+  flex-shrink: 0;
 }
 @media (max-width: 480px) {
   .circleTime {

@@ -90,6 +90,7 @@
   padding: 30px 30px 20px 30px;
   width: 600px;
   height: 500px;
+  overflow: auto;
 }
 .services {
   display: flex;
@@ -117,4 +118,11 @@
   margin-bottom: 50px;
   font-size: 28px;
   font-family: "Roboto", sans-serif;
+}
+.con {
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }

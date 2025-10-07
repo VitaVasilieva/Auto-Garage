@@ -29,7 +29,7 @@ const Services = () => {
           <ServicesComponentDiesel />
         </div>
 
-        <div>
+        <div className="addressContainer">
           <Map />
         </div>
         <Footer />

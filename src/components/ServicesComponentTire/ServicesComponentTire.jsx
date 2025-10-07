@@ -3,6 +3,7 @@ import { useState } from "react";
 import { PiTireLight } from "react-icons/pi";
 import ContactSection from "../ContactSection/ContactSection";
 import { IoCloseOutline } from "react-icons/io5";
+import Table from "../Table/Table";
 const ServicesComponentTire = () => {
   const [visible, setVisible] = useState(false);
   return (
@@ -26,14 +27,11 @@ const ServicesComponentTire = () => {
               >
                 <IoCloseOutline className={styles.close} size={30} />
               </button>
-              <div className={styles.servicesContainer}>
-                <h3 className={styles.servicesTitle}>
-                  Ми знаходимося за адресою!
-                </h3>
-                <div>
-                  <ContactSection />
-                </div>
+
+              <div>
+                <Table />
               </div>
+
               <div className={styles.border}>
                 <div className={styles.services}>
                   <p className={styles.text}>
