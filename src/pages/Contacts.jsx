@@ -4,7 +4,7 @@ const Contacts = () => {
   return (
     <section>
       <h1 className="address">Наша адреса</h1>
-      <div>
+      <div className="addressContainer">
         <Map />
       </div>
       <Footer />

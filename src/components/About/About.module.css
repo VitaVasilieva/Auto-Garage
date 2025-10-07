@@ -12,7 +12,8 @@
 }
 @media (max-width: 768px) {
   .title {
-    font-size: 74px;
+    margin-top: 56px;
+    font-size: 68px;
   }
 }
 .titleText {
@@ -50,6 +51,11 @@
     font-size: 34px;
   }
 }
+@media (max-width: 768px) {
+  .titlesText {
+    font-size: 28px;
+  }
+}
 .titleTexts {
   padding-top: 3px;
   font-size: 20px;
@@ -61,6 +67,12 @@
     font-size: 18px;
   }
 }
+@media (max-width: 768px) {
+  .titleTexts {
+    font-size: 16px;
+    text-align: start;
+  }
+}
 .checkMarkSection {
   margin-top: 50px;
   border-radius: 20px;
@@ -70,6 +82,13 @@
   width: 650px;
   height: 480px;
   padding: 30px 10px 30px 40px;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .checkMarkSection {
+    width: 100%;
+    margin-top: 5px;
+  }
 }
 .checkMarkContainer {
   display: flex;
@@ -83,6 +102,7 @@
   height: 30px;
   background-color: rgb(34, 145, 106);
   color: aliceblue;
+  flex-shrink: 0;
 }
 
 .comfort {
@@ -92,16 +112,23 @@
   justify-content: center;
   padding: 15px;
 }
+@media (max-width: 768px) {
+  .comfort {
+    gap: 3px;
+  }
+}
 .img {
   display: flex;
   gap: 50px;
+  flex-shrink: 0;
   flex-direction: column;
   padding: 15px;
 }
 .comfortText {
   text-align: end;
+  flex-shrink: 0;
   width: 320px;
-  height: 300px;
+
   padding: 20px;
   border: 1px solid rgb(249, 242, 242);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -120,6 +147,7 @@
   .comfortTitle {
     font-size: 26px;
     width: 100%;
+    padding: 0 10px 0 10px;
   }
 }
 .text {

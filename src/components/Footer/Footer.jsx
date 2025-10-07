@@ -16,11 +16,11 @@ const Footer = () => {
           <img src="./logo.png" className={styles.logo} />
           <div>
             <a href="https://www.tiktok.com/@11vita24" target="_blank">
-              <FaTiktok className={styles.telegram} size={35} color="white" />
+              <FaTiktok className={styles.telegram} size={25} color="white" />
               {/* <BsTelegram className={styles.telegram} size={35} color="white" /> */}
             </a>
             <a target="_blank">
-              <BsInstagram size={35} color="white" />
+              <BsInstagram size={25} color="white" />
             </a>
           </div>
         </div>
@@ -36,13 +36,13 @@ const Footer = () => {
             Про нас
           </Link>
           <Link to="/contacts" className={styles.link}>
-            Наші контакти
+            Контакти
           </Link>
         </nav>
         <div>
           <div className={styles.timeSection}>
             <div className={styles.circleTime}>
-              <IoTimeOutline size={25} className={styles.timeSectionOut} />
+              <IoTimeOutline size={23} className={styles.timeSectionOut} />
             </div>
             <div>
               <p className={styles.sectionText}>Пн-Пт з 07:00 - 19:00 </p>

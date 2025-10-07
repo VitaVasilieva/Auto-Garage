@@ -8,16 +8,32 @@
   gap: 30px;
   padding: 30px 0 0 0;
 }
+@media (max-width: 768px) {
+  .footerContainer {
+    padding: 10px 10px 0 10px;
+  }
+}
 .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 14px;
+
   color: black;
 }
 .link {
   color: rgb(248, 247, 247);
   margin-bottom: 20px;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .link {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .link {
+    font-size: 11px;
+  }
 }
 .link:hover {
   color: rgb(1, 1, 1);
@@ -32,6 +48,19 @@
   height: 80px;
   margin-bottom: 20px;
 }
+@media (max-width: 1280px) {
+  .logo {
+    width: 100px;
+    height: 70px;
+  }
+}
+@media (max-width: 480px) {
+  .logo {
+    width: 80px;
+    height: 50px;
+  }
+}
+
 .telegram {
   margin-right: 10px;
   border-radius: 50px;
@@ -47,13 +76,24 @@
 .timeSectionOut {
   margin-top: 7px;
 }
+@media (max-width: 480px) {
+  .timeSectionOut {
+    margin-top: 3px;
+    margin-left: 1px;
+  }
+}
 .sectionText {
   font-size: 12px;
   font-family: "Roboto";
   margin: 0;
   color: rgb(253, 253, 253);
 }
-
+@media (max-width: 480px) {
+  .sectionText {
+    font-size: 11px;
+    text-align: start;
+  }
+}
 .mapSection {
   display: flex;
   align-items: center;
@@ -68,6 +108,11 @@
 .mapIcon {
   margin-top: 10px;
 }
+@media (max-width: 480px) {
+  .mapIcon {
+    margin-top: 5px;
+  }
+}
 .telSection {
   display: flex;
   gap: 20px;
@@ -77,6 +122,11 @@
 .tel {
   margin-top: 10px;
 }
+@media (max-width: 480px) {
+  .tel {
+    margin-top: 3px;
+  }
+}
 .circle {
   width: 40px;
   height: 40px;
@@ -85,6 +135,12 @@
   background-color: rgb(249, 251, 251);
   color: darkcyan;
 }
+@media (max-width: 480px) {
+  .circle {
+    width: 30px;
+    height: 30px;
+  }
+}
 .circleTime {
   width: 40px;
   height: 40px;
@@ -92,6 +148,12 @@
   border-radius: 50px;
   background-color: rgb(249, 251, 251);
   color: darkcyan;
+}
+@media (max-width: 480px) {
+  .circleTime {
+    width: 30px;
+    height: 30px;
+  }
 }
 .buttonFormContainer {
   padding-top: 50px;

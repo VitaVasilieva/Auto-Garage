@@ -7,36 +7,37 @@ const ContactSection = () => {
   const googleMapsUrl = "https://maps.app.goo.gl/fnr7dfar1p6Xvcbd9";
   return (
     <>
-      <div className={styles.timeSection}>
-        <div className={styles.circleTime}>
-          <IoTimeOutline size={35} className={styles.timeSectionOut} />
-        </div>
-        <div>
-          <p className={styles.sectionText}>Пн-Пт з 07:00 - 19:00 </p>
-          <p className={styles.sectionText}>Субота з 08:00 - 16:00</p>
-        </div>
-      </div>
-
-      <div className={styles.mapSection}>
-        <a
-          className={styles.map}
-          href={googleMapsUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <div className={styles.cont}>
+        <div className={styles.telSection}>
           <div className={styles.circle}>
-            <IoLocationOutline className={styles.mapIcon} size={30} />
+            <IoCallOutline className={styles.tel} size={30} />
           </div>
-        </a>
-        <p className={styles.sectionText}>Місто Лубни,вулиця Шевченка, 4</p>
-      </div>
-      <div className={styles.telSection}>
-        <div className={styles.circle}>
-          <IoCallOutline className={styles.tel} size={30} />
+          <p className={styles.sectionText}>+380667946763</p>
         </div>
-
-        <p className={styles.sectionText}>+380667946763</p>
+        <div className={styles.timeSection}>
+          <div className={styles.circleTime}>
+            <IoTimeOutline size={35} className={styles.timeSectionOut} />
+          </div>
+          <div>
+            <p className={styles.sectionText}>Пн-Пт з 07:00 - 19:00 </p>
+            <p className={styles.sectionText}>Субота з 08:00 - 16:00</p>
+          </div>
+        </div>
+        <div className={styles.mapSection}>
+          <a
+            className={styles.map}
+            href={googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.circle}>
+              <IoLocationOutline className={styles.mapIcon} size={30} />
+            </div>
+          </a>
+          <p className={styles.sectionText}>Місто Лубни,вулиця Шевченка, 4</p>
+        </div>
       </div>
+
       <div className={styles.buttonFormContainer}>
         <ContactForm />
       </div>

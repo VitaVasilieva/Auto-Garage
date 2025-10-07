@@ -19,7 +19,7 @@ const Header = () => {
           Про нас
         </Link>
         <Link to="/contacts" className={styles.link}>
-          Наші контакти
+          Контакти
         </Link>
       </nav>
     </header>
