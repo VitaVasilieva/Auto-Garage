@@ -86,58 +86,51 @@ const ContactForm = () => {
             </div>
             <form onSubmit={handleSubmit} className={styles.form}>
               <div className={styles.formContainer}>
-                <label htmlFor="name" className={styles.label}>
-                  Ім'я
-                </label>
+                <label htmlFor="name" className={styles.label}></label>
                 <input
                   className={styles.formName}
                   type="text"
                   name="name"
                   id="name"
-                  // placeholder="Ім'я"
+                  placeholder="Ім'я"
                   value={formData.name}
                   onChange={handleChange}
                   required
                 />
               </div>
               <div className={styles.formContainer}>
-                <label htmlFor="phone" className={styles.label}>
-                  Телефон
-                </label>
+                <label htmlFor="phone" className={styles.label}></label>
                 <input
                   className={styles.formName}
                   type="tel"
                   name="phone"
                   id="phone"
-                  // placeholder="Телефон"
+                  placeholder="Телефон"
                   value={formData.phone}
                   onChange={handleChange}
                   required
                 />
               </div>
               <div className={styles.formContainer}>
-                <label htmlFor="email" className={styles.label}>
-                  Email
-                </label>
+                <label htmlFor="email" className={styles.label}></label>
                 <input
                   className={styles.formName}
                   type="email"
                   name="email"
                   id="email"
-                  // placeholder="Email"
+                  placeholder="Email"
                   value={formData.email}
                   onChange={handleChange}
                   required
                 />
               </div>
               <div className={styles.formContainer}>
-                <label htmlFor="carBrand" className={styles.label}>
-                  Марка авто
-                </label>
+                <label htmlFor="carBrand" className={styles.label}></label>
                 <select
                   className={styles.formSelect}
                   id="carBrand"
                   onChange={handleChange}
+                  placeholder="Марка авто"
                   type="text"
                   name="carBrand"
                   value={formData.carBrand}
@@ -152,13 +145,12 @@ const ContactForm = () => {
                 </select>
               </div>
               <div className={styles.formContainer}>
-                <label htmlFor="carModel" className={styles.label}>
-                  Модель авто
-                </label>
+                <label htmlFor="carModel" className={styles.label}></label>
                 <select
                   className={styles.formSelect}
                   id="carModel"
                   onChange={handleChange}
+                  placeholder="Модель авто"
                   type="text"
                   name="carModel"
                   value={formData.carModel}
@@ -174,12 +166,11 @@ const ContactForm = () => {
                 </select>
               </div>
               <div className={styles.formContainer}>
-                <label htmlFor="carYear" className={styles.label}>
-                  Вкажіть рік виробництва
-                </label>
+                <label htmlFor="carYear" className={styles.label}></label>
                 <select
                   className={styles.formSelect}
                   onChange={handleChange}
+                  placeholder="Pік виробництва"
                   type="text"
                   name="carYear"
                   value={formData.carYear}
