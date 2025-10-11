@@ -3,6 +3,7 @@ import ContactSection from "../components/ContactSection/ContactSection.jsx";
 import Map from "../components/Map/Map.jsx";
 import Main from "../components/MainSection/Main.jsx";
 import Footer from "../components/Footer/Footer.jsx";
+import CarBrand from "../components/CarBrand/CarBrand.jsx";
 const Home = () => {
   return (
     <main>
@@ -18,6 +19,7 @@ const Home = () => {
           обслуговуванні вашого автомобіля!
         </h3>
         <Main />
+        <CarBrand />
         <Map />
       </section>
       <Footer />

@@ -8,6 +8,7 @@ import ServicesComponentTire from "../components/ServicesComponentTire/ServicesC
 import ServicesComponentExhaustSystems from "../components/ServicesComponentExhaustSystems/ServicesComponentExhaustSystems.jsx";
 import ServicesComponentDiesel from "../components/ServicesComponentDiesel/ServicesComponentDiesel.jsx";
 
+import BrandCar from "../components/BrandCar/BrandCar.jsx";
 import Map from "../components/Map/Map.jsx";
 import Footer from "../components/Footer/Footer.jsx";
 const Services = () => {
@@ -28,7 +29,7 @@ const Services = () => {
           <ServicesComponentExhaustSystems />
           <ServicesComponentDiesel />
         </div>
-
+        <BrandCar />
         <div className="addressContainer">
           <Map />
         </div>

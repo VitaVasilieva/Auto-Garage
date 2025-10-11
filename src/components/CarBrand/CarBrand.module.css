@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  padding: 20px 0;
+}
+.iconsWrapper {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  align-items: center;
+  animation: scroll 45s linear infinite;
+  will-change: transform;
+}
+.iconsWrapper:hover {
+  animation-play-state: paused;
+}
+@keyframes scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-25%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.icon {
+  padding: 10px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
