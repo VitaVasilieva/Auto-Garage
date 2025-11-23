@@ -9,7 +9,7 @@ const Home = () => {
     <main>
       <section className="main-section">
         <div className="car">
-          <h2 className="title-header">Мультибрендовий автосервіс</h2>
+          <h1 className="title-header">Мультибрендовий автосервіс</h1>
           <div className="contact">
             <ContactSection />
           </div>
